@@ -48,4 +48,13 @@ public class Course {
     public void setCday(String cday) {
         this.cday = cday;
     }
+
+    @Override
+    public String toString() {
+        return "\n\tCourse\n" +
+                "name: " + name +
+                "\nnumber: " + number +
+                "\nteacher: " + teacher +
+                "\ncday: " + cday;
+    }
 }

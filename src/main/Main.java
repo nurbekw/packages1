@@ -31,6 +31,6 @@ public class Main {
         group.setStudents(new Student[]{student, student1,student2,student3});
         group.setC("it.Kg");
         group.setCstart("18:15-20:15");
-        System.out.println(group);
+        System.out.println(group+course.toString());
     }
 }

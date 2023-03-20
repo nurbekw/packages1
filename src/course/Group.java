@@ -43,8 +43,6 @@ public class Group {
     @Override
     public String toString() {
         return "\tGroup\n" +
-                "students: " + Arrays.toString(students) +
-                "\nc: " + c +
-                "\ncstart: " + cstart;
+                "students: " + Arrays.toString(students) ;
     }
 }

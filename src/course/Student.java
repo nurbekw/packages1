@@ -44,7 +44,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "\n" +
+        return
                 "name: " + name +
                 "\nbirthday: " + birthday +
                 "\nage: " + age;
