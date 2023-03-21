@@ -23,10 +23,10 @@ public class Main {
         student3.setBirthday("15.05.2007");
         student3.setAge(15);
         Course course = new Course();
-       course.setName("it.kg");
-       course.setNumber(2);
-       course.setTeacher("Azamat");
-       course.setCday("06.02.2023");
+        course.setName("it.kg");
+        course.setNumber(2);
+        course.setTeacher("Azamat");
+        course.setCday("06.02.2023");
         Group group = new Group();
         group.setStudents(new Student[]{student, student1,student2,student3});
         group.setC("it.Kg");
